@@ -7,7 +7,7 @@
 </head>
 <body>
    
-    <form action="#" method="post" autocomplete="on">
+    <form action="/Formulario" method="post" autocomplete="on">
 <fieldset> 
         <legend><h1>Dados Pessoais</h1></legend> 
         <div>
@@ -88,56 +88,56 @@
     <legend><h1>Escolha do Carro</h1></legend>
     <p>Escolha o modelo:</p>
     <input type="radio" name="modelo" id="iseal" value="BYD Seal">
-    <label for="seal">BYD Seal</label><br>
+    <label for="iseal">BYD Seal</label><br>
 
     <input type="radio" name="modelo" id="ihan" value="BYD Han">
-    <label for="han">BYD Han</label><br>
+    <label for="ihan">BYD Han</label><br>
 
     <input type="radio" name="modelo" id="isongplus" value="BYD Song Plus">
-    <label for="songplus">BYD Song Plus</label><br><br>
+    <label for="isongplus">BYD Song Plus</label><br><br>
 
-    <p>Itens adicionais:</p>
+    <label><p>Itens adicionais:</p></label>
     <input type="checkbox" id="isom" name="itens" value="Som Premium">
-    <label for="som">Som Premium</label><br>
+    <label for="isom">Som Premium</label><br>
 
     <input type="checkbox" id="iar" name="itens" value="Ar-condicionado Digital">
-    <label for="ar">Ar-condicionado Digital</label><br>
+    <label for="iar">Ar-condicionado Digital</label><br>
 
     <input type="checkbox" id="icamera" name="itens" value="Câmera 360°">
-    <label for="camera">Câmera 360°</label><br><br>
+    <label for="icamera">Câmera 360°</label><br><br>
 
-    <label for="cor">Cor do carro:</label><br>
+    <label for="icor">Cor do carro:</label><br>
     <input type="color" id="icor" name="cor"><br><br>
 
-    <label for="brilho">Intensidade da cor (brilho):</label><br>
+    <label for="ibrilho">Intensidade da cor (brilho):</label><br>
     <input type="range" id="ibrilho" name="brilho" min="0" max="100"><br><br>
 </fieldset>
 <fieldset>
         <legend><h1>Entrega</h1></legend>
-        <label for="dataEntrega">Data desejada para entrega:</label><br>
+        <label for="idataEntrega">Data desejada para entrega:</label><br>
         <input type="date" id="idataEntrega" name="dataEntrega"><br><br>
 
-        <label for="horaEntrega">Hora preferida para entrega:</label><br>
+        <label for="ihora">Hora preferida para entrega:</label><br>
         <input type="time" id="ihora" name="hora"><br><br>
 
-        <label for="mes">Mês da compra:</label><br>
+        <label for="imes">Mês da compra:</label><br>
         <input type="month" id="imes" name="mes"><br><br>
 </fieldset>
 <fieldset>
         <legend><h1>Sua Opinião</h1></legend>
-        <label for="opiniao">Conte qual é a sua expectativa sobre o carro:</label><br>
-        <textarea id="opiniao" name="opiniao" rows="5" cols="50" placeholder="Exemplo: Espero que o carro tenha boa autonomia, seja confortável, silencioso e impressione os vizinhos!"></textarea><br><br>
+        <label for="iopiniao">Conte qual é a sua expectativa sobre o carro:</label><br>
+        <textarea id="iopiniao" name="opiniao" rows="5" cols="50" placeholder="Exemplo: Espero que o carro tenha boa autonomia, seja confortável, silencioso e impressione os vizinhos!"></textarea><br><br>
 </fieldset>
 <fieldset>
     <legend><h1>Avaliação dos Modelos BYD</h1></legend>
 
-    <label for="dolphin">Avalie o BYD Dolphin Plus:</label><br>
+    <label for="idolphin">Avalie o BYD Dolphin Plus:</label><br>
     <input type="number" id="idolphin" name="dolphin" min="0" max="5" placeholder="0 a 5 estrelas" style="width: 150px;"><br><br>
 
-    <label for="gs">Avalie o BYD GS:</label><br>
+    <label for="igs">Avalie o BYD GS:</label><br>
     <input type="number" id="igs" name="gs" min="0" max="5" placeholder="0 a 5 estrelas" style="width: 150px;"><br><br>
 
-    <label for="mini">Avalie o BYD Mini:</label><br>
+    <label for="imini">Avalie o BYD Mini:</label><br>
     <input type="number" id="imini" name="mini" min="0" max="5" placeholder="0 a 5 estrelas"style="width: 150px;"><br><br>
 </fieldset><br><br>
         <button type="submit">Enviar</button>
